@@ -9,7 +9,7 @@ import { ErrordialogueComponent } from './errordialogue/errordialogue.component'
   providedIn: 'root'
 })
 export class ServeService {
-url : string ="http://localhost:300";
+url : string ="http://localhost:3000";
   constructor(private http: HttpClient, public matdialogue:MatDialog) { }
 //error handler
   

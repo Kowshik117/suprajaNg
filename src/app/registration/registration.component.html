@@ -14,6 +14,11 @@
                       (registerForm.get('userId').invalid && registerForm.get('userId').touched)">
                   <span style="color: red;">Enter User  ID </span>
               </mat-error>
+              <mat-error *ngIf="(registerForm.controls['userId'].hasError('pattern') && formSubmitted)|| 
+              (registerForm.get('userId').invalid && registerForm.get('userId').touched)">
+                  <span style="color: red;">minlength 6 and max 30 should contain numbers or alphabets</span>
+              </mat-error>
+             
           </div>
       </div>
 
@@ -22,11 +27,16 @@
           <div class="col-md-5">
               <mat-form-field>
                   <mat-label> Password</mat-label>
-                  <input matInput type="text" autocomplete="off" formControlName="password" >
+                  <input matInput type="text" autocomplete="off" formControlName="password" (blur)="matchPassword()">
               </mat-form-field>
               <mat-error *ngIf="(registerForm.controls['password'].hasError('required') && formSubmitted) || 
                       (registerForm.get('password').invalid && registerForm.get('password').touched)">
                   <span style="color: red;">Enter password </span>
+              </mat-error>
+              <mat-error *ngIf="(registerForm.controls['password'].hasError('minlength') && formSubmitted) || 
+              (registerForm.get('password').invalid && registerForm.get('password').touched)">
+                  <span style="color: red;">minimum length six letters</span>
+
               </mat-error>
           </div>
       </div>
@@ -37,12 +47,15 @@
         <div class="col-md-5">
             <mat-form-field>
                 <mat-label> Re-Enter Password</mat-label>
-                <input matInput type="text" autocomplete="off" formControlName="reEnterPassword">
+                <input matInput type="text" autocomplete="off" formControlName="reEnterPassword"  (keypress)="matchPassword()">
             </mat-form-field>
             <mat-error *ngIf="(registerForm.controls['reEnterPassword'].hasError('required') && formSubmitted) || 
                     (registerForm.get('reEnterPassword').invalid && registerForm.get('reEnterPassword').touched)">
                 <span style="color: red;"> Re Enter password </span>
             </mat-error>
+            <div *ngIf="passwordMatch==false">
+            <span  style="color: red;"> Password Miss Match</span>
+        </div>
         </div>
     </div>
 
@@ -93,7 +106,7 @@
 
 
 
-  <button mat-raised-button  type="submit" class="m-4" style="background-color: rgb(129, 227, 171);" [disabled]="registerForm.invalid" > Register</button>
+  <button mat-raised-button  type="submit" class="m-4" style="background-color: rgb(129, 227, 171);" [disabled]="registerForm.invalid && passwordMatch " > Register</button>
 
   </form>
    </div>

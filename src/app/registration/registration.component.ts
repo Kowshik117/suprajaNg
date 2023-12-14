@@ -13,15 +13,18 @@ export class RegistrationComponent implements OnInit {
 
   registerForm: any;
   public formSubmitted : boolean = false;
+  public passwordMatch: boolean= true;
+ 
 constructor( private router: Router, private formBuilder: FormBuilder, private service: ServeService){}
 
 
   ngOnInit(): void {
+    
     this.registerForm = this.formBuilder.group({
-      userId: new FormControl(null, [Validators.required]),
-      password: new FormControl(null, [Validators.required]),
+      userId: new FormControl(null, [Validators.required, Validators.pattern(/^[A-Za-z][A-Za-z0-9_]{5,29}$/)]),
+      password: new FormControl(null, [Validators.required, Validators.minLength(6)]),
       reEnterPassword: new FormControl(null,[Validators.required]),
-      email: new FormControl(null, [Validators.required]),
+      email: new FormControl(null, [Validators.required ,Validators.email] ),
       phoneNumber : new FormControl(null, [Validators.required,Validators.pattern(/^[6-9]{1}[0-9]{9}$/)]),
       role: new FormControl(null,[Validators.required])
       
@@ -43,6 +46,18 @@ constructor( private router: Router, private formBuilder: FormBuilder, private s
       this.registerForm.reset();
     })
     this.router.navigate(['home'])
+  }
+  public matchPassword(){
+    let password : any= this.registerForm.controls['password'].value;
+    let confirmPassword: any = this.registerForm.controls['reEnterPassword'].value;
+
+    if(password !=null&& confirmPassword!=null && password?.length==confirmPassword?.length && password===confirmPassword){
+       this.passwordMatch= true;
+    }
+    else{
+       this.passwordMatch = false;
+    }
+
   }
  
 }

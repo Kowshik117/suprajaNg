@@ -37,6 +37,7 @@ import { DiologComponent } from './diolog/diolog.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import { FilterPipe } from './filter.pipe';
 import { ErrordialogueComponent } from './errordialogue/errordialogue.component';
+import { SuccessComponent } from './success/success.component';
 
 
 
@@ -61,7 +62,8 @@ import { ErrordialogueComponent } from './errordialogue/errordialogue.component'
     ThreeComponent,
     DiologComponent,
     FilterPipe,
-    ErrordialogueComponent
+    ErrordialogueComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { ServeService } from '../serve.service';
 import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dialog';
 
@@ -8,7 +8,12 @@ import { MAT_DIALOG_DATA, MatDialog, MatDialogRef } from '@angular/material/dial
   styleUrls: ['./errordialogue.component.css']
 })
 export class ErrordialogueComponent {
- constructor( private service:ServeService){
+ constructor(@Inject(MAT_DIALOG_DATA) public data: any,  public dialogRef: MatDialogRef<any>, ){
 
  }
+
+ closedialgue(){
+  this.dialogRef.close()
+ }
+
 }

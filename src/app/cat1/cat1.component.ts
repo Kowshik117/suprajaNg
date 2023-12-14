@@ -29,11 +29,10 @@ this.service.getCardData().subscribe((data)=>{
   this.cardData=data;
   this.service.search.subscribe((val:any)=>{
     this.serachKey=val;
+ 
   })
-},(error)=>{
-  this.errorMessage=error.status
-  console.log(error," this is due to ");
-  // alert("Something went wrong")
+}, (error)=>{
+  this.service.errorMethod("something went wrong")
 })
 }
 openDialog(id:any): void {

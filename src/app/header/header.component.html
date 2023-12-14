@@ -1,0 +1,37 @@
+  
+ <mat-toolbar color = "accent" >
+  <mat-toolbar-row>
+    <button  mat-icon-button (click)="showSideNavbar()" >
+      <mat-icon >menu</mat-icon> 
+    </button>
+    <h1>Application name</h1>
+   
+    <mat-tab-group >
+      <mat-tab *ngFor="let element of navBarElements"  >
+        <ng-template mat-tab-label>
+          <span (click)="navigateCat(element.path)">{{element.name}}</span>
+         
+        </ng-template>
+      </mat-tab>
+    </mat-tab-group>
+    <input type="text" matInput placeholder="search"  class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)">
+    <span class="logout" (click)="logout()">Logout</span>
+  </mat-toolbar-row>
+ </mat-toolbar>
+<div class="row app-container">
+  <app-side-nav *ngIf="showSideNav ==true" class="col-2"></app-side-nav>
+  <app-cat1 class="col-10" *ngIf="showComponent=='cat1'"></app-cat1>
+  <app-cat2 class="col-10" *ngIf="showComponent=='cat2'"></app-cat2>
+  <app-cat3 class="col-10" *ngIf="showComponent=='cat3'"></app-cat3>
+</div>
+
+
+ <!-- <div class = "row">
+  <div class="col-5">
+    <app-side-nav *ngIf="showSideNav ==true"></app-side-nav>
+  </div>
+  <div class="col-7">
+    
+  </div>
+</div> -->
+ 

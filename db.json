@@ -1,0 +1,342 @@
+{
+  "userData": [
+    {
+      "userId": "kowshik123",
+      "password": "1234",
+      "reEnterPassword": "1234",
+      "email": "kowshik@gmail.com",
+      "phoneNumber": 8184865077,
+      "role": "user",
+      "id": 1
+    },
+    {
+      "userId": "sanjay123",
+      "password": "1234",
+      "reEnterPassword": "1234",
+      "email": "sanjay@gmail.com",
+      "phoneNumber": 9090909090,
+      "role": "user",
+      "id": 2
+    },
+    {
+      "userId": "sudheeksha123",
+      "password": "1234",
+      "reEnterPassword": "1234",
+      "email": "sudheeksha@gmail.com",
+      "phoneNumber": 9999999999,
+      "role": "user",
+      "id": 3
+    },
+    {
+      "userId": "sudheer123",
+      "password": "1234",
+      "reEnterPassword": "1234",
+      "email": "sudheer@gmail.com",
+      "phoneNumber": 9898989898,
+      "role": "user",
+      "id": 4
+    },
+    {
+      "userId": "jay123",
+      "password": "1234",
+      "reEnterPassword": "1234",
+      "email": "jay@gmail.com",
+      "phoneNumber": 9098989098,
+      "role": "user",
+      "id": 5
+    }
+  ],
+  "card":[
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 1,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 2,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 3,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 4,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 5,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 6,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 7,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 8,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Electronics"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 9,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "actual price": 100000,
+        "current price": 60000,
+        "id": 10,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 11,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 12,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 13,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 14,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 15,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 16,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 17,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 18,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 19,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 20,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"Fashion"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 21,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"toys"
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 22,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"toys"
+
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 23,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"toys"
+
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 24,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"toys"
+
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 25,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"toys"
+
+    },
+    {
+        "prodName": "Iphone",
+        "details": "iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile operating system.",
+        "Actual price": 100000,
+        "current price": 60000,
+        "id": 26,
+        "image":"https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "subtitle":"Apple Brand",
+        "avathar": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+        "categor":"toys"
+
+    }
+  ]
+}

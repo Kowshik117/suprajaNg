@@ -1,0 +1,22 @@
+button {
+    background-color: darkviolet;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;
+    
+    
+}
+.example-card {
+    max-width: 400px;
+   
+  
+    margin: 5px;
+    background-color: beige;
+
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

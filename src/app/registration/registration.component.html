@@ -1,0 +1,100 @@
+
+<div class="container">
+    <h2 class=" head">Registration Form</h2>
+   <div class="form">
+    <form [formGroup]="registerForm" (ngSubmit)="addUserData()"> 
+        <!-- User ID Column  -->
+        <div class="row" class="mt-4" >
+          <div class="col-md-5">
+              <mat-form-field>
+                  <mat-label> User ID </mat-label>
+                  <input matInput type="text" autocomplete="off" formControlName="userId" class="inp">
+              </mat-form-field>
+              <mat-error *ngIf="(registerForm.controls['userId'].hasError('required') && formSubmitted) || 
+                      (registerForm.get('userId').invalid && registerForm.get('userId').touched)">
+                  <span style="color: red;">Enter User  ID </span>
+              </mat-error>
+          </div>
+      </div>
+
+      <!-- user password -->
+      <div class="row" class="mt-4" >
+          <div class="col-md-5">
+              <mat-form-field>
+                  <mat-label> Password</mat-label>
+                  <input matInput type="text" autocomplete="off" formControlName="password" >
+              </mat-form-field>
+              <mat-error *ngIf="(registerForm.controls['password'].hasError('required') && formSubmitted) || 
+                      (registerForm.get('password').invalid && registerForm.get('password').touched)">
+                  <span style="color: red;">Enter password </span>
+              </mat-error>
+          </div>
+      </div>
+
+      <!-- Re Enter Password -->
+
+      <div class="row" class="mt-4" >
+        <div class="col-md-5">
+            <mat-form-field>
+                <mat-label> Re-Enter Password</mat-label>
+                <input matInput type="text" autocomplete="off" formControlName="reEnterPassword">
+            </mat-form-field>
+            <mat-error *ngIf="(registerForm.controls['reEnterPassword'].hasError('required') && formSubmitted) || 
+                    (registerForm.get('reEnterPassword').invalid && registerForm.get('reEnterPassword').touched)">
+                <span style="color: red;"> Re Enter password </span>
+            </mat-error>
+        </div>
+    </div>
+
+    <!-- email  -->
+    <div class="row" class="mt-4" >
+        <div class="col-md-5">
+            <mat-form-field>
+                <mat-label> email</mat-label>
+                <input matInput type="email" autocomplete="off" formControlName="email" >
+            </mat-form-field>
+            <mat-error *ngIf="(registerForm.controls['email'].hasError('required') && formSubmitted) || 
+                    (registerForm.get('email').invalid && registerForm.get('email').touched)">
+                <span style="color: red;">Enter Email </span>
+            </mat-error>
+
+<!-- Phone Number -->
+            <div class="row" class="mt-4" >
+                <div class="col-md-5">
+                    <mat-form-field>
+                        <mat-label> Phone Number</mat-label>
+                        <input matInput type="number" autocomplete="off" formControlName="phoneNumber" >
+                    </mat-form-field>
+                    <mat-error *ngIf="(registerForm.controls['phoneNumber'].hasError('required') && formSubmitted) || 
+                            (registerForm.get('phoneNumber').invalid && registerForm.get('phoneNumber').touched)">
+                        <span style="color: red;">Enter Phone Number </span>
+                    </mat-error>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- role -->
+    <div class="row" class="mt-4" >
+        <div class="col-md-5">
+            <mat-form-field>
+                <mat-label> Role</mat-label>
+                <input matInput type="text" autocomplete="off" formControlName="role" >
+            </mat-form-field>
+            <mat-error *ngIf="(registerForm.controls['role'].hasError('required') && formSubmitted) || 
+                    (registerForm.get('role').invalid && registerForm.get('role').touched)">
+                <span style="color: red;">Enter Role </span>
+            </mat-error>
+        </div>
+    </div>
+
+
+
+
+  <button mat-raised-button  type="submit" class="m-4" style="background-color: rgb(129, 227, 171);" [disabled]="registerForm.invalid" > Register</button>
+
+  </form>
+   </div>
+</div>

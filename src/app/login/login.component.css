@@ -1,0 +1,16 @@
+
+input {
+ 
+    display: block;
+    margin: auto;
+
+}
+.container{
+    margin-top: 60px;
+    background-image: linear-gradient(rgb(219, 147, 147), rgb(128, 158, 208));
+    height: 400px;
+    width: 100%
+}
+.form{
+    margin-left: 450px;
+}

@@ -1,0 +1,22 @@
+<div   >
+    <!-- <div class="text-success">{{data.message }}
+  
+    </div> -->
+    
+    <mat-card class="example-card"  >
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{cardData?.prodName}}</mat-card-title>
+          <mat-card-subtitle>{{cardData?.subtitle || "Sub title"}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="cardData?.image" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>
+            {{cardData?.details}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+
+
+    
+</div>

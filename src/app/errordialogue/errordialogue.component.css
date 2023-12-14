@@ -1,0 +1,12 @@
+.popup{
+    max-width: 400px;
+    margin: 5px;
+    background-color: beige;
+}
+button{
+    background-color: darkviolet;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: white;   
+}

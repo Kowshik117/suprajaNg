@@ -1,0 +1,70 @@
+.mat-tab-label{
+    color:white;
+    min-width: 25px !important;
+    padding: 5px;
+       background-color:transparent;
+        color:white;
+        font-weight: 700;
+  }
+/* 
+.mat-tab-label{
+    min-width: 25px !important;
+    padding: 5px;
+       background-color:transparent;
+        color:white;
+        font-weight: 700;
+}
+
+.md-tab.ng-scope.ng-isolate-scope.md-ink-ripple.md-active{
+      background-color:transparent;
+      color:white;
+      font-weight: 700;
+  }
+
+.md-tab.ng-scope.ng-isolate-scope.md-ink-ripple{
+    background-color:transparent;
+    color:white;
+    font-weight: 700;
+}
+
+
+
+.mat-tab-label:active{
+    min-width: 25px !important;
+    padding: 5px;
+       background-color:transparent;
+        color:white;
+        font-weight: 700;
+}
+
+.mat-tab-label:selected{
+    min-width: 25px !important;
+    padding: 5px;
+       background-color:transparent;
+        color:white;
+        font-weight: 700;
+} */
+.app-container{
+    height: 100%;
+    width: 100%;
+}
+.sidebar{
+    width: 250px;
+}
+.logout{
+ margin-left: 300px;
+ padding: 2px;
+ font-size: medium;
+ 
+ 
+}
+.logout:hover{
+   
+    background-color: rgb(96, 80, 218);
+    
+    
+   }
+   .form-control{
+    margin-left: 100px;
+   }
+  

@@ -1,0 +1,43 @@
+ 
+ <div class="container" >
+    <h2 class="text-center"> Login </h2>
+    
+    <button mat-raised-button  type="submit" class="m-4" style="background-color: rgb(129, 227, 171); float: right;"  (click)="register()"> Register</button>
+   
+   <div class="form">
+    <form [formGroup]="loginForm" class="mt-5 " (ngSubmit)="loginUser()" >
+        <br>
+        
+        <!-- User ID Column  -->
+    <div class="row" class="mt-4" >
+        <div class="col-md-5">
+            <mat-form-field>
+                <mat-label> User ID </mat-label>
+                <input matInput type="text" autocomplete="off" formControlName="userId" class="inp">
+            </mat-form-field>
+            <mat-error *ngIf="(loginForm.controls['userId'].hasError('required') && formSubmitted) || 
+                    (loginForm.get('userId').invalid && loginForm.get('userId').touched)">
+                <span style="color: red;">Enter User  ID </span>
+            </mat-error>
+        </div>
+    </div>
+
+    <!-- Password Column -->
+    <div class="row" class="mt-4 " >
+        <div class="col-md-5">
+            <mat-form-field>
+                <mat-label> Password </mat-label>
+                <input matInput type="password" autocomplete="off" formControlName="password">
+            </mat-form-field>
+            <mat-error *ngIf="(loginForm.controls['password'].hasError('required') && formSubmitted) || 
+                    (loginForm.get('password').invalid && loginForm.get('password').touched)">
+                    <span style="color: red;">Enter Password </span>
+            </mat-error>
+        </div>
+    </div>
+    <button mat-raised-button  style="background-color: rgb(207, 143, 90);" (click)="reseting()"> reset </button>
+
+    <button mat-raised-button  type="submit" class="m-4" style="background-color: rgb(129, 227, 171);"  [disabled]="loginForm.invalid"> Login </button>
+</form>
+   </div>
+</div>
